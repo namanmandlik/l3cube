@@ -1,0 +1,24 @@
+naman@naman-HP-15-Notebook-PC:~$ cd workspace/
+naman@naman-HP-15-Notebook-PC:~/workspace$ cd L3Cube/
+naman@naman-HP-15-Notebook-PC:~/workspace/L3Cube$ cd Duplicate_Files/
+naman@naman-HP-15-Notebook-PC:~/workspace/L3Cube/Duplicate_Files$ cd src/
+naman@naman-HP-15-Notebook-PC:~/workspace/L3Cube/Duplicate_Files/src$ ls
+Duplicate_Files.c
+naman@naman-HP-15-Notebook-PC:~/workspace/L3Cube/Duplicate_Files/src$ gcc Duplicate_Files.c -o abc
+naman@naman-HP-15-Notebook-PC:~/workspace/L3Cube/Duplicate_Files/src$ ./abc /home/naman /home/naman/hello.txt
+/home/naman/calculator/hello.txt
+/home/naman/NetBeansProjects/TcpServer2/hello.txt
+/home/naman/NetBeansProjects/hello.txt
+/home/naman/Desktop/hello.txt
+
+
+Found 4 duplicate(s)
+
+You want to delete them or merge them? For Delete:1 Merge:2
+2
+
+File: /home/naman/calculator/hello.txt deleted successfully..
+File: /home/naman/NetBeansProjects/TcpServer2/hello.txt deleted successfully..
+File: /home/naman/NetBeansProjects/hello.txt deleted successfully..
+File: /home/naman/Desktop/hello.txt deleted successfully..naman@naman-HP-15-Notebook-PC:~/workspace/L3Cube/Duplicate_Files/src$ 
+
